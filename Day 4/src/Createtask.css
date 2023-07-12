@@ -1,0 +1,160 @@
+.appcontainer {
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.task-container {
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  width: 80%;
+  margin-left: -100px;
+  background-repeat: no-repeat;
+  
+}
+
+.box {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(234, 226, 226) 0%, rgb(200, 202, 206) 81%);  width: 600px;
+  height: 550px; /* Increase the height as desired */
+  margin-top: -800px; /* Adjust the negative margin to center the box vertically */
+  border-radius: 10px;
+  margin-left:500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.task-title {
+  margin-right: 10px; /* Add margin to create space */
+}
+
+.task-time {
+  font-size: 14px;
+  color: #888;
+}
+
+.calendar-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.react-datepicker {
+  width: 100%;
+  max-width: 250px;
+}
+
+.react-datepicker__input-container {
+  display: block;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-category {
+  font-size: 14px;
+  color: #888;
+  margin-right: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  height: 60px;
+
+}
+.dd{
+  width: 1300px;
+  margin-top: -400px;
+}
+
+.input-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field input[type='text'],
+.input-field textarea,
+.input-field select {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.input-field textarea {
+  height: 100px;
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: #ccc;
+  text-decoration: line-through;
+}
+
+.close {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  font-weight: bold;
+}
+
+.task-value {
+  margin-left: 10px;
+}
