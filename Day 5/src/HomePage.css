@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-area ul li a.active,
+.nav-area ul li a.hover {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(rgba(17, 16, 17, 0.453), rgba(0, 0, 0, 0.8)), url(https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  min-height: 100vh;
+  background-size: cover;
+  width: 1900px;
+  background-repeat: no-repeat;
+}
+
+.nav-area {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  list-style: none;
+  margin-top: 150px;
+  text-align: right;
+}
+
+.nav-area li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 20%;
+  padding: 100px;
+  position: absolute;
+  left: 0;
+  padding-top: -80px;
+
+}
+
+.welcome-text {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.welcome-text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.welcome-text a {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 29px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.welcome-text a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.social-media-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-links a {
+  color: #efe6e6;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer {
+  background: linear-gradient(rgb(1, 0, 0), rgba(13, 0, 0, 0.778)), url(https://i.postimg.cc/j584FvRh/1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: -50px;
+  color: #fff;
+  height: 170px;
+}
+
+.footer .wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-links li {
+  display: inline-block;
+  margin-right: 95px;
+}
+
+.footer .footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer .footer-links a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer .contact-info {
+  text-align: right;
+}
+
+.footer .contact-info p {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .logo {
+    float: none;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .nav-area {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .nav-area li a {
+    padding: 5px;
+    font-size: 11px;
+  }
+
+  .welcome-text {
+    width: 100%;
+    height: auto;
+    margin: 30% 0;
+  }
+
+  .welcome-text h1 {
+    font-size: 30px;
+  }
+
+  .footer .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .footer .footer-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .footer .footer-links li {
+    margin-right: 15px;
+  }
+
+  
+  .footer .contact-info {
+    text-align: center;
+  }
+}
+
+.side-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4); /* Update with your desired gradient colors */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* Align contents to the top */
+  padding: 20px;
+  box-sizing: border-box;
+  color: #333; /* Update text color */
+}
+
