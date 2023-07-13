@@ -1,0 +1,160 @@
+.h-screen {
+    height: 100vh;
+  }
+  
+  .w-screen {
+    width: 100vw;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .bg-teal-lightest {
+    background-color: #e6fffa;
+  }
+  
+  .font-sans {
+    font-family: sans-serif;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .m-4 {
+    margin: 1rem;
+  }
+ 
+  .lg:max-w-lg {
+    max-width: 32rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  .h-screen {
+    background-image: url("https://images.pexels.com/photos/6181839/pexels-photo-6181839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .md:text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .text-indigo-600 {
+    color: #4f46e5;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .flex.mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .shadow.appearance-none.border.rounded.py-2.px-3.mr-4.text-grey-darker {
+    box-shadow: 0 0 0 1px #edf2f7 inset;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-right: 1rem;
+    color: #718096;
+  }
+  
+  .text-grey-darker {
+    color: #4a5568;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .p-2.lg\:px-4.md\:mx-2.text-center.border.border-solid.border-indigo-600.rounded.text-white.bg-indigo-600.transition-colors.duration-300.mt-1.md\:mt-0.md\:ml-1 {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    color: #ffffff;
+    background-color: #4f46e5;
+    border-style: solid;
+    border-width: 1px;
+    transition-property: color, background-color;
+    transition-duration: 300ms;
+    margin-top: 0.25rem;
+    margin-left: 0.125rem;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    color: #ffffff;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 0.25rem;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #433db7;
+  }
+  
+  .h-screen {
+    height: 110vh;
+    background-image: url("https://images.pexels.com/photos/6181839/pexels-photo-6181839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-white {
+    background-color: #f3f3f3;
+  }
+  
