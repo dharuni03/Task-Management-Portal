@@ -1,0 +1,278 @@
+.gt {
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  margin-left: 30px;
+}
+
+.ywrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.yheader {
+  background: linear-gradient(rgba(17, 16, 17, 0.453), rgba(0, 0, 0, 0.8)),
+    url(https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  min-height: 100vh;
+  background-size: cover;
+  width: 1900px;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+}
+
+.ynav-area {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  list-style: none;
+  margin-top: 150px;
+  text-align: right;
+}
+
+.ynav-area li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.ynav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-family: poppins;
+  margin-top: 60px;
+  font-size: 18px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ynav-area li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.ylogo {
+  float: left;
+}
+
+.ylogo .fff {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  position: absolute;
+  border: none;
+  margin-left: -60px;
+  margin-top: 60px;
+}
+
+.ed {
+  width: 30px;
+}
+
+.rt {
+  width: 50px;
+  margin-left: 60px;
+}
+
+.ywelcome-text {
+  position: absolute;
+  width: 00px;
+  height: 100px;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.ywelcome-text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: -50px;
+  margin-left: -20px;
+
+}
+
+.ywelcome-text a.ycreate-task-btn,
+.ywelcome-text button.ycreate-task-btn,
+.ywelcome-text a.yview-task-btn,
+.ywelcome-text button.yview-task-btn,
+.ywelcome-text a.ydelete-task-btn,
+.ywelcome-text button.ydelete-task-btn,
+.ywelcome-text a.yedit-task-btn,
+.ywelcome-text button.yedit-task-btn {
+  border: 1px solid #fff;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 50px;
+  color: #fff;
+  background-color: #33333300;
+
+  margin-top:-100px;
+  margin-left: 10px;
+}
+
+.ywelcome-text a.ycreate-task-btn:hover,
+.ywelcome-text button.ycreate-task-btn:hover,
+.ywelcome-text a.yview-task-btn:hover,
+.ywelcome-text button.yview-task-btn:hover,
+.ywelcome-text a.ydelete-task-btn:hover,
+.ywelcome-text button.ydelete-task-btn:hover,
+.ywelcome-text a.yedit-task-btn:hover,
+.ywelcome-text button.yedit-task-btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+.ysocial-media-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ysocial-media-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.ysocial-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* HomePage.css or your preferred CSS file */
+.logout-link {
+  cursor: pointer; /* Show a pointer cursor when hovering over the link */
+}
+
+.logout-link:hover {
+  color: red; /* Change the text color to red on hover */
+  /* Add other styles you want to apply when hovering */
+}
+
+.ysocial-media-links a {
+  color: #efe6e6;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.yfooter {
+  background: linear-gradient(rgb(1, 0, 0), rgba(13, 0, 0, 0.778)),
+    url(https://i.postimg.cc/j584FvRh/1.jpg);
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: -50px;
+  color: #fff;
+}
+
+.yfooter .ywrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.yfooter .yfooter-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.yfooter .yfooter-links li:last-child {
+  margin-right: 0;
+}
+
+.yfooter .yfooter-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.yfooter .contact-info {
+  text-align: right;
+}
+
+.yfooter .contact-info p {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+  .ywrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .ylogo {
+    float: none;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .ynav-area {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .ynav-area li a {
+    padding: 5px;
+    font-size: 11px;
+  }
+
+  .ywelcome-text {
+    width: 100%;
+    height: auto;
+    margin: 30% 0;
+  }
+
+  .ywelcome-text h1 {
+    font-size: 30px;
+  }
+
+  .yfooter .ywrapper {
+    flex-wrap: wrap;
+  }
+
+  .yfooter .yfooter-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .yfooter .yfooter-links li {
+    margin-right: 15px;
+  }
+}
+
+.yside-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background: linear-gradient(to bottom, rgb(227, 197, 173), rgba(193, 169, 151, 1));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #333;
+}
