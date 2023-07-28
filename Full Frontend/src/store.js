@@ -1,0 +1,33 @@
+import { createStore } from 'redux';
+
+const initialState = {
+  selectedRating: 'Satisfied',
+  showMessage: false,
+  comment: '',
+};
+
+const feedbackReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'SET_SELECTED_RATING':
+      return {
+        ...state,
+        selectedRating: action.payload,
+      };
+    case 'SET_SHOW_MESSAGE':
+      return {
+        ...state,
+        showMessage: action.payload,
+      };
+    case 'SET_COMMENT':
+      return {
+        ...state,
+        comment: action.payload,
+      };
+    default:
+      return state;
+  }
+};
+
+const store = createStore(feedbackReducer);
+
+export default store;
